@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 cap = cv2.VideoCapture(0)
-print("sa")
+
 while True:
     _, frame = cap.read()
     outputFrame = frame.copy()
